@@ -1,0 +1,13 @@
+{
+  "name": "city-appearance-rules",
+  "version": "1.0.0",
+  "description": "市容考核规则版本闭环：立案、可注入时钟升级、处罚锁定、规则发布/试算/影响清单/基准迁移",
+  "main": "server.js",
+  "license": "ISC",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test test/",
+    "openapi": "node scripts/export-openapi.js > openapi.json",
+    "migrate": "node scripts/migrate.js"
+  }
+}
