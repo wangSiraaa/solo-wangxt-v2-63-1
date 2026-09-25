@@ -23,3 +23,8 @@ venv/
 __pycache__/
 .pytest_cache/
 .DS_Store
+
+# 本地 SQLite 数据文件（sql.js 落盘）
+data/
+*.sqlite
+*.sqlite.tmp
